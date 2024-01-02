@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
+import Cookies from './components/cookies/Cookies'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
      <Header />
        <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/cookies' element={<Cookies />} />
        </Routes>
       <Footer />
      </BrowserRouter>
