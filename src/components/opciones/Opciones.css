@@ -1,0 +1,16 @@
+.opciones{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.opciones>select{
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+  font-size: 19px;
+}
+.opciones>select>option{
+  font-size: 19px;
+}

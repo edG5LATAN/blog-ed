@@ -1,0 +1,60 @@
+.promociones{
+  width: 100%;
+  min-height: 1000px;
+  height: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.promociones-contenedor{
+  width: 90%; 
+}
+.promo{
+ width: 100%;
+ display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.caja{
+  width: 280px;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 5px;
+  margin: 9px;
+}
+.caja-h{
+  text-align: center;
+  font-size: 19px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.caja-img{
+  width: 100%; 
+  height: 280px;
+}
+.caja:hover{
+  scale: 1.02;
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
+.caja-botones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.caja-btn{
+  padding: 5px;
+  width: 150px;
+  border-radius: 9px;
+  font-size: 19px;
+}
+.caja-btn:hover{
+  cursor: pointer;
+  background-color: lightblue;
+}
+.caja-btn:active{
+  background-color: lightcyan;
+}

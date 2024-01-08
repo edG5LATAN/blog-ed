@@ -18,8 +18,8 @@ function Header() {
         <ul>
         <li onClick={()=>cokie('/')}>inicio</li>
         <li onClick={()=>cokie('/cookies')}>Cookies</li>
-         <li>contacto</li>
-         <li>informacion</li>
+         <li onClick={()=>cokie('/promos')}>Promos</li>
+         <li onClick={()=>cokie('/administrador')}>Admnistrador</li>
         </ul>
       </nav>
     </div>

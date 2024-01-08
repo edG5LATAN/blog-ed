@@ -4,6 +4,8 @@ import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
 import Cookies from './components/cookies/Cookies'
+import Promociones from './components/promociones/Promociones'
+import Administrador from './components/administrador/Administrador'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
        <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/cookies' element={<Cookies />} />
+        <Route path='/promos' element={<Promociones />}/>
+        <Route path='/administrador' element={<Administrador />} />
        </Routes>
       <Footer />
      </BrowserRouter>
